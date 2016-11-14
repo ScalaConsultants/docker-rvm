@@ -12,7 +12,7 @@ RUN locale-gen en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 
-ENV RUBY_VERSION 2.2.1
+ENV RUBY_VERSION 2.3.0
 
 RUN bash -l -c 'rvm requirements && \
     rvm install $RUBY_VERSION && \
